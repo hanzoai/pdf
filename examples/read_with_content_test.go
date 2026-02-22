@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/casibase/pdf"
+	"github.com/hanzoai/pdf"
 )
 
 func TestGetContentText(t *testing.T) {

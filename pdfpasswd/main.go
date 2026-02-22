@@ -12,7 +12,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/casibase/pdf"
+	"github.com/hanzoai/pdf"
 )
 
 var (
