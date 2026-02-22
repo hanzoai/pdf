@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/casibase/pdf"
+	"github.com/hanzoai/pdf"
 )
 
 func TestGetPlainText(t *testing.T) {

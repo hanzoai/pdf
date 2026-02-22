@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/casibase/pdf"
+	"github.com/hanzoai/pdf"
 )
 
 func TestGetStyledText(t *testing.T) {
