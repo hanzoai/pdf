@@ -1,3 +1,5 @@
+<p align="center"><img src=".github/hero.svg" alt="pdf" width="880"></p>
+
 # PDF Reader
 
 [![Built with WeBuild](https://raw.githubusercontent.com/webuild-community/badge/master/svg/WeBuild.svg)](https://webuild.community)
