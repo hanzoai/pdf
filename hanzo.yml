@@ -1,0 +1,16 @@
+# Canonical CI/CD config for hanzoai/pdf — read by the hanzoai/ci reusable
+# (.hanzo/workflows/cicd.yml) and by platform.hanzo.ai.
+#
+# A Go library: ships from a tag as a module, builds no image, so no `images:`
+# and no `deploy:`.
+#
+# `./...` INCLUDES examples/, and that is the whole point: every _test.go in
+# this repo lives there (read_with_plain/content/styles). The old
+# .github/workflows/ci.yml ran `go test $(go list ./... | grep -v '/examples')`,
+# which is precisely the set with no tests in it — a green over zero tests.
+
+test:
+  - name: build
+    run: go build ./...
+  - name: test
+    run: go test -count=1 ./...
